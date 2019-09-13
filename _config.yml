@@ -1,0 +1,5 @@
+title: Control Panel Plus
+description: 助你将 Windows 调整到最理想的模样！
+lang: zh-CN
+plugins:
+  - jekyll-redirect-from
