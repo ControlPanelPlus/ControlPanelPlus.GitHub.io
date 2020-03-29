@@ -12,7 +12,7 @@
 </head>
 
 <header>
-  <div class="container-lg px-3 my-5 markdown-body">
+  <div class="container-md px-3 my-5 markdown-body">
     {% if page.url != '/' %}
     <p><strong><a href="{{ "/" | relative_url}}">← {{ site.title | site.github.repository_name | escape }}</a></strong>
     </p>
@@ -21,13 +21,13 @@
 </header>
 
 <body>
-  <div class="container-lg px-3 my-5 markdown-body">
+  <div class="container-md px-3 my-5 markdown-body">
     {{ content }}
   </div>
 </body>
 
 <footer>
-  <div class="container-lg px-3 my-5 markdown-body">
+  <div class="container-md px-3 my-5 markdown-body">
     {% if page.url != '/' %}
     <p><br /></p>
     <p><strong><a href="{{ "/" | relative_url}}">← {{ site.title | site.github.repository_name | escape }}</a></strong>
